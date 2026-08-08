@@ -1,0 +1,31 @@
+# Terraform local state
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+
+# Variable files may contain credentials or environment-specific data
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Terraform CLI files
+.terraformrc
+terraform.rc
+
+# Secrets / keys
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.*
+
+# Editors / OS
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
